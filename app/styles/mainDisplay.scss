@@ -217,6 +217,21 @@
 				}
 			}
 		}
+
+		.scroll-arrow {
+			position: absolute;
+
+			transform: translateY(-110%);
+			cursor: pointer;
+		}
+
+		.scroll-arrow.left {
+			left: 10px; /* Adjust as needed */
+		}
+
+		.scroll-arrow.right {
+			right: 10px; /* Adjust as needed */
+		}
 	}
 
 	.desktop-category {
@@ -355,4 +370,9 @@
 			}
 		}
 	}
+}
+
+.scroll-arrow.hidden {
+	display: none;
+	visibility: hidden;
 }
